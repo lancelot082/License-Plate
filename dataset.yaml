@@ -1,0 +1,5 @@
+train: D:\Projects\License Plate\dataset\images\train
+val: D:\Projects\License Plate\dataset\images\val
+
+nc: 1  # Number of classes
+names: ['license_plate']
