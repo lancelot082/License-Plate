@@ -61,7 +61,7 @@ yolo task=detect mode=val model=yolov8m.pt data=dataset.yaml save_json=True
 
 ---
 
-### 🔍 Предсказания на новых данных
+### Предсказания на новых данных
 
 ```bash
 yolo task=detect mode=predict model=yolov8m.pt source=dataset/images/test save_txt=True save_conf=True save_crop=True
